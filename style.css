@@ -1,0 +1,96 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    line-height: 1.6;
+    background-color: #d4cfcf;
+    background-size: contain;
+}
+
+header {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt_T76-QuO2_bfI4jJCCdWqyH28KsznK5lHA&usqp=CAU");
+    background-color: #0e0e0e;
+     background-size: contain;
+    
+    color: #fff;
+    padding: 2rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-origin: padding-box;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #c3ff00;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 2rem;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #c3ff00;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.section {
+    padding: 55px 0;
+    text-align: center;
+    color: #fdf7f7;
+   
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #0e0e0e;
+   
+}
+
+.skills-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+    
+}
+
+.project {
+    margin: 40px 0;
+    padding: 20px;
+   
+    border-radius: 5px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #d54f4f;
+    border-left: #2efb0a;
+    color: #ffffff;
+}
+img{
+    padding: 0rem;
+    height: 6rem;;
+}
+
+
